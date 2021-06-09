@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% block title %}A propos - TekSniper💀{% endblock %}
+{% block section %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/layout.css')}}">
+<link rel="stylesheet" href="{{url_for('static', filename='css/bulma.min.css')}}">
+<div class="container">
+    <div class="columns">
+        <div class="column">
+
+            <fieldset class="field">
+                <legend>
+                    <img src="{{url_for('static', filename='img/teksniper+.jpg')}}" class="portfolio">
+                </legend>
+                <h3 class="title">
+                    Merveille Lubenzo
+                </h3>
+            </fieldset>
+        </div>
+    </div>
+</div>
+{% endblock %}

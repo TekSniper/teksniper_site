@@ -1,0 +1,18 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background-image: url('../img/header_back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+.title{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    margin-top: 35px;
+}
+.subtilte{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    margin-top: 20px;
+}

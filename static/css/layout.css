@@ -1,0 +1,12 @@
+footer{
+    clear: both;
+    text-align: center;
+}
+.portfolio{
+    width: 200px;
+    clip-path: ellipse(50% 50%);
+}
+.field{
+    border: solid 0.5px dimgray;
+    border-radius: 10px 10px 10px 10px;
+}
